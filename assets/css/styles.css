@@ -165,3 +165,80 @@ a {
     align-items: center;
     margin-top: 70px;
 }
+
+/* Guilds */
+.guilds {
+    margin-top: 174px;
+}
+
+.guilds .sub-title {
+    position: relative;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: #000339;
+}
+
+.guilds .sub-title::before {
+    position: absolute;
+    top: -10px;
+    border-radius: 12px;
+    transform: translateX(-50%);
+    left: 50%;
+    content: "";
+    display: inline-block;
+    width: 41px;
+    height: 4px;
+    background: #000339;
+}
+
+.guilds .desc {
+    margin: 20px auto 0;
+    text-align: center;
+    width: 459px;
+    max-width: 100%;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.875; /* 187.5% */
+    color: #5a6473;
+}
+
+.list-guilds {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.guild-item {
+    margin: 0px 70px;
+    text-align: center;
+}
+
+.guild-item .title {
+    color: #3b3c45;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.1; /* 110% */
+}
+
+.guild-item .link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #0689ff;
+}
+
+.guild-item .arrow {
+    margin-left: 6px;
+}
+
+.guild-cta {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.guild-cta .btn {
+    min-width: 170px;
+}
