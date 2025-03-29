@@ -148,7 +148,8 @@ a {
 }
 /* Clients */
 .clients {
-    margin-top: 122px;
+    margin-top: 79px;
+    padding: 43px 0 64px;
 }
 
 .clients .row {
@@ -176,7 +177,8 @@ a {
 
 /* Guilds */
 .guilds {
-    margin-top: 174px;
+    margin-top: 40px;
+    padding: 93px 0 79px;
 }
 
 .guilds .sub-title {
@@ -254,9 +256,8 @@ a {
 /* Featured */
 
 .featured {
-    position: relative;
     background: #f5fafe;
-    margin-top: 120px;
+    margin-top: 41px;
     padding: 110px 0;
 }
 
