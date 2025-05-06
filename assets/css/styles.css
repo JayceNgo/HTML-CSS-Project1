@@ -238,7 +238,7 @@ a {
     color: #5a6473;
 }
 
-.list-guilds {
+.list-guide {
     display: flex;
     justify-content: center;
     margin-top: 70px;
@@ -320,7 +320,8 @@ a {
 }
 
 .featured .list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-top: 70px;
 }
@@ -600,7 +601,9 @@ a {
 }
 
 .footer .row-top {
-    gap: 185px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    row-gap: 80px;
 }
 
 .footer .heading {
